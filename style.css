@@ -1,3 +1,6 @@
+@-ms-viewport{
+  width: device-width;
+}
 body {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -37,4 +40,7 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.forgot{
+	text-decoration:underline;
 }
