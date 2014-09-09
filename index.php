@@ -1,35 +1,20 @@
 <html>
 <head>
-<title>Login</title>
-
-<link rel="stylesheet" href="style.css" type="text/css"/>
+	<title>Travel With Me</title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	  <!-- Bootstrap -->
+    <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<form name="login-form" id="login-form" method="post" action="<?php echo $PHP_SELF; ?>"> 
-  <fieldset> 
-  <legend>Please login:</legend> 
-  <dl> 
-    <dt> 
-      <label title="Username">Username:
-      <input tabindex="1" accesskey="u" name="username" type="text" maxlength="50" id="username" /> 
-      </label> 
-    </dt> 
-  </dl> 
-  <dl> 
-    <dt> 
-      <label title="Password">Password:
-      <input tabindex="2" accesskey="p" name="password" type="password" maxlength="15" id="password" /> 
-      </label> 
-    </dt> 
-  </dl> 
-  <dl> 
-    <dt> 
-      <label title="Submit"> 
-      <input tabindex="3" accesskey="l" type="submit" name="cmdlogin" value="Login" /> 
-      </label> 
-    </dt> 
-  </dl> 
-  </fieldset> 
-</form>
+	<div class="mainContainer">
+		<div class="loginForm">
+			 <form class="form-signin" role="from"  method="POST" data-ajax="false">
+				<h2 class="from-signin-heading">Please Login</h2>
+				<input type="email" class="form-control" placeholder="Email" id="email" required autofocus />	
+				<input type="password" class="form-control" placeholder="Password" id="passwd" required />
+				<button class="btn btn-lg btn-primary btn-block" type="submit"onClick="handleLogin()" >Sign in</button>
+			</form>	
+		</div>
+	</div>
 </body>
 </html>
