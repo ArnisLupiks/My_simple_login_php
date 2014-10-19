@@ -42,7 +42,7 @@ body {
   border-top-right-radius: 0;
 }
 .forgot{
-	text-decoration:underline;
+  text-decoration:underline;
 }
 .btn-custom1{
   background-color: hsl(138, 58%, 56%) !important;
@@ -59,4 +59,18 @@ body {
   color: #333 !important;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.36);
   -webkit-font-smoothing: antialiased;
+}
+
+.headingWhite{
+  color:#ffffff;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+ /* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
 }

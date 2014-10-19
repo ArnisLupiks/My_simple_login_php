@@ -11,24 +11,47 @@
 	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 	</head>
 <body>
+
 	<div class="container">
-		<div class="navbar navbar-default navbar-fixed-top navbar-collapse collapse" role="navigation">
-			<div class="container-fluid">
-			<ul class="nav navbar-nav navbar-left">
-				<h2>Travel With Me</h2>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<button type="button" class="btn btn-link">Login</button>
-				<button class="btn btn-custom1" type="Login"onClick="handleLogin()" >Sign Up</button>
-			</ul>
+
+		<div class="navbar navbar-fixed-top navbar-inverse">
+
+			<div class="container">
+
+				<a href ="#" class="navbar-brand">Travel Mate</a>
+
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+							<li><a href = "#">Home</a></li>
+							<li><a href ="#">Friends</a></li>
+							<li class="dropdown">
+									<a href="#"class ="dropdown-toggle" data-toggle = "dropdown">Messages <b class = "caret"></b></a>
+									<ul class = "dropdown-menu">
+										<li><a href="#">New Message</a></li>
+										<li><a href="#">Messages</a></li>
+									</ul>
+							</li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
 			</div>
+
 		</div>
+
 	</div>
+
 	<div id="content" class="content">
-	
+
 	</div>
 	<div id="footer" class="footer">
-	
+
 	</div>
 </body>
 </html>
