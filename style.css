@@ -74,3 +74,19 @@ body {
 
 
 }
+
+/* Custom styling to Navbar
+----------------------------------------- */
+.navbar-wrapper{
+  postition: absolute;
+  top:0;
+  right:0;
+  left:0;
+  z-index:20;
+
+}
+.right-inner-addon{
+  position:relative;
+  top:8px;
+  right:1px;
+}
